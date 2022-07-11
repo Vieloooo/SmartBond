@@ -1,0 +1,873 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#"
+     xml:base="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_03c86388_f4e3_4cb1_8b8c_bc096089f38b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_03c86388_f4e3_4cb1_8b8c_bc096089f38b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has_sponsorship_fee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_2fcd13c4_29a0_47f9_8983_6059a7863fbc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_2fcd13c4_29a0_47f9_8983_6059a7863fbc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has_clause</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_4ad06326_6933_48f9_a8d7_e7471fd8f0dc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_4ad06326_6933_48f9_a8d7_e7471fd8f0dc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176"/>
+        <rdfs:label xml:lang="en">sponsor_benefit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_5b2a677d_b62f_49cb_bb96_cc733b9c89e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_5b2a677d_b62f_49cb_bb96_cc733b9c89e1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has_provision_from_sponsor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_df3812c3_e174_4720_b793_bea0cab5cd73"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_96bf8863_50ba_42d1_a671_b7424d44479b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_96bf8863_50ba_42d1_a671_b7424d44479b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_a5889b9b_10cc_473b_a47c_da59693355e2"/>
+        <rdfs:label xml:lang="en">sponsee_has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_9830b80c_1db5_4e16_ab60_dbebaf6b58fc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_9830b80c_1db5_4e16_ab60_dbebaf6b58fc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_c7165c02_a704_4aad_90d5_1975f8ef61db"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176"/>
+        <rdfs:label xml:lang="en">sponsor_has_benefit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a3fbd888_06be_43bd_98a3_e65446038324 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a3fbd888_06be_43bd_98a3_e65446038324">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa"/>
+        <rdfs:label xml:lang="en">sponsor_has_right</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a65adbbd_2bc0_43ce_88d3_049fd0da0ee4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a65adbbd_2bc0_43ce_88d3_049fd0da0ee4">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_96bf8863_50ba_42d1_a671_b7424d44479b"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa"/>
+        <rdfs:label xml:lang="en">sponsee_has_right</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b007dcd0_2644_490c_84eb_c854f552d655 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b007dcd0_2644_490c_84eb_c854f552d655">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+        <rdfs:label xml:lang="en">sponsor_has_sponsorship_fee_to_pay</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b369c542_4d59_45e4_a336_39acc20c6be3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b369c542_4d59_45e4_a336_39acc20c6be3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_95b6e110_0745_4ba1_8337_96ae81a7dae0"/>
+        <rdfs:label xml:lang="en">sponsorship_fee_tx</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b74e1abb_9b85_4779_9c26_cb1150aba71b -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b74e1abb_9b85_4779_9c26_cb1150aba71b">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_96bf8863_50ba_42d1_a671_b7424d44479b"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c"/>
+        <rdfs:label xml:lang="en">sponsee_has_obligation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2"/>
+        <rdfs:label xml:lang="en">sponsor_has</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_c7165c02_a704_4aad_90d5_1975f8ef61db -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_c7165c02_a704_4aad_90d5_1975f8ef61db">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_4ad06326_6933_48f9_a8d7_e7471fd8f0dc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2"/>
+        <rdfs:label xml:lang="en">sponsor_benefit_has_sponsor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_cf37a8ff_f6ed_41a8_a322_5cf51ca201f0 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_cf37a8ff_f6ed_41a8_a322_5cf51ca201f0">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_4ad06326_6933_48f9_a8d7_e7471fd8f0dc"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:label xml:lang="en">sponsor_benefit_has_related_clause</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d159460f_1254_4f76_a4ae_3cd031ae63ff -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d159460f_1254_4f76_a4ae_3cd031ae63ff">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has_sponsor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d5915fea_99f7_4cf7_8d9c_97018a836aca -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d5915fea_99f7_4cf7_8d9c_97018a836aca">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_6b7bbd4b_b638_469e_9583_254bf601d338"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_a5889b9b_10cc_473b_a47c_da59693355e2"/>
+        <rdfs:label xml:lang="en">sponsorship_agreement_has_sponsee</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_efdea26a_00f9_4ef9_a3f0_1f31b2777407 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_efdea26a_00f9_4ef9_a3f0_1f31b2777407">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+        <rdfs:label xml:lang="en">sponsor_has_provision_to_provide</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_fa152532_5cde_415b_bea6_05ec06d55e3c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_fa152532_5cde_415b_bea6_05ec06d55e3c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_bf20b007_4aca_468b_aaeb_82236ac861ff"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c"/>
+        <rdfs:label xml:lang="en">sponsor_has_obligation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_188a6376_683c_4261_b65f_d467019093aa -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_188a6376_683c_4261_b65f_d467019093aa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_1922d39e_eec3_433f_8d25_f32cb863ae4e -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_1922d39e_eec3_433f_8d25_f32cb863ae4e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_b773a4f3_ed58_4f46_88d5_2ed3bc4f892b"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>?</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>bank_transfer</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>cash</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>cheque</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">transaction_pay_method</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2755e7cd_ef0a_414d_a778_94227727b2eb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2755e7cd_ef0a_414d_a778_94227727b2eb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff86a763_7579_4a58_a2e9_faaf462b12ec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_con_has_action</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2b84bf3c_2146_4e8a_b120_f42fa04dd906 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2b84bf3c_2146_4e8a_b120_f42fa04dd906">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_982a1f4f_23db_423d_b3f1_31cd7f9ae58a"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">entity_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2f6605ff_2a31_453f_88ec_5dc205f9f003 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2f6605ff_2a31_453f_88ec_5dc205f9f003">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">agreement_has_effective_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3101e4b0_5b00_4c6a_9c24_582586e9e1a6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3101e4b0_5b00_4c6a_9c24_582586e9e1a6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">agreement_has_governing_law</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_39855e20_374f_4c49_b74f_3f6603784469 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_39855e20_374f_4c49_b74f_3f6603784469">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">agreement_has_expiration_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_df3812c3_e174_4720_b793_bea0cab5cd73"/>
+        <rdfs:label xml:lang="en">agreement_metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_54fc0c05_c951_4c98_ba54_b54d92670111 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_54fc0c05_c951_4c98_ba54_b54d92670111">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_efa03ba7_ce86_4d76_b53d_e7cf7f2864d8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">asset_value</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_894dc710_383d_4410_afc4_16dd110093b7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_894dc710_383d_4410_afc4_16dd110093b7">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_982a1f4f_23db_423d_b3f1_31cd7f9ae58a"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">entity_place</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_9770123b_55cc_40ff_a511_ec397c472bbb -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_9770123b_55cc_40ff_a511_ec397c472bbb">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_b773a4f3_ed58_4f46_88d5_2ed3bc4f892b"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="en">transaction_amount</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_982a1f4f_23db_423d_b3f1_31cd7f9ae58a -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_982a1f4f_23db_423d_b3f1_31cd7f9ae58a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba"/>
+        <rdfs:label xml:lang="en">entity_metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ae4cff03_eba1_47f5_a411_a6fb82756a7c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ae4cff03_eba1_47f5_a411_a6fb82756a7c">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_efa03ba7_ce86_4d76_b53d_e7cf7f2864d8"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">provision_has_due_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_b773a4f3_ed58_4f46_88d5_2ed3bc4f892b -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_b773a4f3_ed58_4f46_88d5_2ed3bc4f892b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_95b6e110_0745_4ba1_8337_96ae81a7dae0"/>
+        <rdfs:label xml:lang="en">transaction_metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d36282a0_2dc8_467b_aded_4eaefa1aaade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d36282a0_2dc8_467b_aded_4eaefa1aaade">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff86a763_7579_4a58_a2e9_faaf462b12ec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_con_has_condition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d4945a55_46b5_46d4_9d86_10adea3858f6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d4945a55_46b5_46d4_9d86_10adea3858f6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_188a6376_683c_4261_b65f_d467019093aa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_has_status</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d680c25c_2199_47f4_8458_5fecf2d4c21e -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d680c25c_2199_47f4_8458_5fecf2d4c21e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_188a6376_683c_4261_b65f_d467019093aa"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_has_content</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d9fa8c20_a4ea_4ac8_8f16_bd79821816be -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d9fa8c20_a4ea_4ac8_8f16_bd79821816be">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_efa03ba7_ce86_4d76_b53d_e7cf7f2864d8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">asset_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e66625ae_43bc_4988_8041_e63a2384c3e6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e66625ae_43bc_4988_8041_e63a2384c3e6">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">agreement_has_agreement_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e87e6010_f154_4e4c_8c85_bb6144746d12 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e87e6010_f154_4e4c_8c85_bb6144746d12">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3fd44c99_0d8b_4a9d_91f8_721caab8ab63"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">agreement_has_contract_name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ec04dffc_a676_48fd_84e8_93fa4fe33224 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ec04dffc_a676_48fd_84e8_93fa4fe33224">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_982a1f4f_23db_423d_b3f1_31cd7f9ae58a"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">entity_type</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_efa03ba7_ce86_4d76_b53d_e7cf7f2864d8 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_efa03ba7_ce86_4d76_b53d_e7cf7f2864d8">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">asset_metadata</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff86a763_7579_4a58_a2e9_faaf462b12ec -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff86a763_7579_4a58_a2e9_faaf462b12ec">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_188a6376_683c_4261_b65f_d467019093aa"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_15efaeab_8533_4c15_b5bc_5c14329ef312"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">clause_con_has</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff876c20_6bd0_4687_ad35_e854c452a6e3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff876c20_6bd0_4687_ad35_e854c452a6e3">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_b773a4f3_ed58_4f46_88d5_2ed3bc4f892b"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">transaction_due_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa"/>
+        <rdfs:label xml:lang="en">obligation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_15efaeab_8533_4c15_b5bc_5c14329ef312 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_15efaeab_8533_4c15_b5bc_5c14329ef312">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2755e7cd_ef0a_414d_a778_94227727b2eb"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d36282a0_2dc8_467b_aded_4eaefa1aaade"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_49b398a3_ec2d_4cd4_9bc0_330fe6ec3f6f"/>
+        <rdfs:label xml:lang="en">conditional_clause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_894dc710_383d_4410_afc4_16dd110093b7"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ec04dffc_a676_48fd_84e8_93fa4fe33224"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2b84bf3c_2146_4e8a_b120_f42fa04dd906"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d4945a55_46b5_46d4_9d86_10adea3858f6"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d680c25c_2199_47f4_8458_5fecf2d4c21e"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">clause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_49b398a3_ec2d_4cd4_9bc0_330fe6ec3f6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_49b398a3_ec2d_4cd4_9bc0_330fe6ec3f6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:label xml:lang="en">unconditional_clause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b369c542_4d59_45e4_a336_39acc20c6be3"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_95b6e110_0745_4ba1_8337_96ae81a7dae0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sponsorship_fee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7"/>
+        <rdfs:label xml:lang="en">provision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_54fc0c05_c951_4c98_ba54_b54d92670111"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_d9fa8c20_a4ea_4ac8_8f16_bd79821816be"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">asset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_cf37a8ff_f6ed_41a8_a322_5cf51ca201f0"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_c7165c02_a704_4aad_90d5_1975f8ef61db"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">benefit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_95b6e110_0745_4ba1_8337_96ae81a7dae0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_95b6e110_0745_4ba1_8337_96ae81a7dae0">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_9770123b_55cc_40ff_a511_ec397c472bbb"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_1922d39e_eec3_433f_8d25_f32cb863ae4e"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_ff876c20_6bd0_4687_ad35_e854c452a6e3"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">transaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_a5889b9b_10cc_473b_a47c_da59693355e2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_a5889b9b_10cc_473b_a47c_da59693355e2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a65adbbd_2bc0_43ce_88d3_049fd0da0ee4"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b74e1abb_9b85_4779_9c26_cb1150aba71b"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sponsee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_df3812c3_e174_4720_b793_bea0cab5cd73 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_df3812c3_e174_4720_b793_bea0cab5cd73">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_2fcd13c4_29a0_47f9_8983_6059a7863fbc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_5b2a677d_b62f_49cb_bb96_cc733b9c89e1"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_03c86388_f4e3_4cb1_8b8c_bc096089f38b"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d159460f_1254_4f76_a4ae_3cd031ae63ff"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_d5915fea_99f7_4cf7_8d9c_97018a836aca"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_a5889b9b_10cc_473b_a47c_da59693355e2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_2f6605ff_2a31_453f_88ec_5dc205f9f003"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_39855e20_374f_4c49_b74f_3f6603784469"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e66625ae_43bc_4988_8041_e63a2384c3e6"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_e87e6010_f154_4e4c_8c85_bb6144746d12"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLDataProperty_3101e4b0_5b00_4c6a_9c24_582586e9e1a6"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sponsorship_agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_f449c770_02a8_48da_85b5_a162b3150ba2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_9830b80c_1db5_4e16_ab60_dbebaf6b58fc"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_a3fbd888_06be_43bd_98a3_e65446038324"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_b007dcd0_2644_490c_84eb_c854f552d655"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_efdea26a_00f9_4ef9_a3f0_1f31b2777407"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLObjectProperty_fa152532_5cde_415b_bea6_05ec06d55e3c"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_0e73fd27_ceb0_4579_839e_ab70c1562c6c"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">sponsor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_fa44506d_e5b6_4fa7_8f2d_84abb95811aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+        <rdfs:label xml:lang="en">right</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_2ef40cfc_30f8_414a_9f14_501adbd593ba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_428c218d_0267_4336_9899_5da4918c52bb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_8dd8bc82_7a65_42b4_ab45_41eeb59c16c7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_df3812c3_e174_4720_b793_bea0cab5cd73"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5421f7f4_8390_4770_85d3_8a17181a8c7c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_5c36998c_1c9b_49d0_89ee_343ade801ec1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vielo/ontologies/2022/6/untitled-ontology-35#OWLClass_90ab1af2_ac99_4936_9abc_f7ecca827176"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

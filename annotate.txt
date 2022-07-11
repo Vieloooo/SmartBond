@@ -1,0 +1,41 @@
+Annotation 
+format: [ statement | tag_1, tag_2, ...tag_n ]
+The list below shows the tag I use in sponsorship agreement annotation. 
+	entity
+		sponsee: [sponsee]
+		sponsor: [sponsor]
+	clause
+		obligation: [obligation]
+		conditional_clause  : [con]
+            condition: [if]
+            action: [then]
+		unconditional_clause:[ uncon]
+		right   : [right]
+        sponsor's clause:[ ors ]
+        sponsee's clause: [ees]
+
+	asset
+		sponsorship_fee: total amount of all sponsorship_fee, tagged by [fee]
+		provision: [provision]
+            use [provision_n] to indicate the Nth provision
+            use [provision_n_value] to indicate the Nth provision's values
+            use [provision_n_due] to indicates the Nth provision's due date 
+		benefit: [benefit]
+            use [ benefit_n] to  indicate the Nth benefit
+            use [benefit_n_rc] to indicate the Nth benefit's related clauses 
+	transaction: [tx]
+        use [tx_n] to indicate the Nth installment
+        use [tx_n_date] to indicate the Nth installment's date
+	sponsorship_agreement
+        agreement_date: [agreement_date]
+        contract name: [contract_name]
+        effective date: [effective_date]
+        expiration date: [expiration_date]
+        governing law: [governing_law]
+
+
+Annotating procedure: 
+1. sponsorship-agreement meta data 
+2. obligation and right
+3. asset 
+
